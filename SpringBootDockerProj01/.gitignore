@@ -1,6 +1,11 @@
 HELP.md
-target/
+
+# Allow JAR file for Docker build
+target/*
+!target/*.jar
+
 .mvn/wrapper/maven-wrapper.jar
+
 !**/src/main/**/target/
 !**/src/test/**/target/
 
