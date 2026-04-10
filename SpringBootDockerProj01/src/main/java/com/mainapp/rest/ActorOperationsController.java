@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/actor-api")
 public class ActorOperationsController {
 	
-	@GetMapping("wish/{name}")
+	@GetMapping("/wish/{name}")
 	public ResponseEntity<String> showWishMessage(@PathVariable String name){
 		return new ResponseEntity<String>("Good Morning "+name,HttpStatus.OK);
 	}
