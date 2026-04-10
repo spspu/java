@@ -1,4 +1,4 @@
 FROM eclipse-temurin:17-jdk-alpine
-COPY target/*.jar /usr/app/app.jar
+COPY target/springboot-rest-app.jar /usr/app/app.jar
 WORKDIR /usr/app
-ENTRYPOINT ["java","-jar","app.jar"]
+ENTRYPOINT ["java","-jar","springboot-rest-app.jar"]
