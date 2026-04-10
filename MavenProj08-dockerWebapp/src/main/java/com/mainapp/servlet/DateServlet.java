@@ -21,7 +21,7 @@ public class DateServlet extends HttpServlet {
 		writer.print("<h1>Date and Time:: "+date+"</h1>");
 		writer.print("<br><a href='index.jsp'>home</a>");
 		
-		writer.close();	//close
+		writer.close();
 	}
 
 	@Override
