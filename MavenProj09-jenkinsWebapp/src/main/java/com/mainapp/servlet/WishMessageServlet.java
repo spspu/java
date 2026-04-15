@@ -13,6 +13,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class WishMessageServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
+	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		PrintWriter writer = res.getWriter();
 		res.setContentType("text/html");
@@ -20,6 +21,7 @@ public class WishMessageServlet extends HttpServlet {
 		writer.print("<br><br><a href='index.jsp'>home</a>");
 		writer.close();
 	}
+	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		doGet(req,res);
 	}
