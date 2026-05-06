@@ -17,4 +17,5 @@
 1) Create IAM users (like bedrock-user) & give FullAccessBedrock permission
 2) In Which Create Access Key then after collect access-key & seceret-key
 3) put access-key & seceret-key in application.properties file in springboot project
+
 ![postman-testing-result](SpringBootBedrock/src/main/resources/postman-testing-result.png)
