@@ -8,7 +8,7 @@
 2) add dependnecy in pom.xml (like genai)
 3) impl free model in application.properties
 
-# Procedure for Connecting springboot with OpenAI
+# Procedure for Connecting springboot with GenAI
 1) Go to GenAi & create access key
 2) add dependnecy in pom.xml (like opnenai)
 3) impl free model in application.properties
