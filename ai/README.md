@@ -1,10 +1,10 @@
 # Procedure for Connecting springboot with Ollama locally
-1) Go to opoenAi & create access key
+1) download Software(like Ollama ≈ 2gb) & its model(like llama3.2:1b ≈ 1.3gb) locally
 2) add dependnecy in pom.xml (like ollama)
-3) impl free model in application.properties
+3) impl that model in application.properties
 
 # Procedure for Connecting springboot with OpenAI
-1) Go to opoenAi & create access key
+1) Go to openAi & create access key
 2) add dependnecy in pom.xml (like genai)
 3) impl free model in application.properties
 
